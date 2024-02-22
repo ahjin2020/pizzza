@@ -1,0 +1,156 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;  
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.logo img{
+    max-width: 500px; /* Adjust the width of the logo */
+    display: inline-flex; /* Make the logo display as an inline block */
+  }
+.photo{
+    top: 0;
+    left: 0;
+}
+header {
+    background-color: #800000; /* Change this to your desired background color */
+    padding: 170px;
+    text-align: center; /* Center-align the content */
+  }
+header h1 {
+    margin: 0;
+}
+
+nav ul button menu{
+    border: none;
+    background: transparent;   
+}
+
+
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: #333;
+}
+
+.btn:hover {
+    background-color: #e65100;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+h2{
+    font-size: 70px;
+    font-weight: bold;
+    font-style: inherit;
+ }
+ h2 b{
+     color: orange;
+     text-shadow: #333;
+     font-style: italic;
+ }
+ .navigation {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    list-style-type: none;
+    padding: 10;
+    margin: 10;
+
+}
+
+.navigation li {
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.navigation li button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(19, 13, 13);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: bolder
+    
+}
+
+.navigation li button:hover {
+    background-color: #d62b2b;
+}
+.menu-button {
+    position: fixed;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 100px;
+    transition: background-color 0.3s ease;
+    border-radius: 5%;
+    
+}
+
+.menu-button:hover {
+    background-color: #d31414;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
